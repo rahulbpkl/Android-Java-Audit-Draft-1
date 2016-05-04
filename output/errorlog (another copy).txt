@@ -1,0 +1,206 @@
+*****************************************************Automation Started***********************************************
+2016/05/04 00:01:54
+*************************************************************************************************************
+
+
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/JavaParser.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/Position.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 26 . 'Position' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ASTHelper.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/PositionUtils.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/SourcesHelper.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/CompilationUnit.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/TreeVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/NamedNode.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/VoidVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/VoidVisitorAdapter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/CloneVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/GenericVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/GenericVisitorAdapter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/EqualsVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/ModifierVisitorAdapter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/visitor/DumpVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/TypeParameter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/NullLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/CastExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/LambdaExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/FieldAccessExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/UnaryExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/IntegerLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ClassExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/StringLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ArrayInitializerExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/TypeExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/InstanceOfExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/SuperExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ObjectCreationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/LongLiteralMinValueExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/LiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/EnclosedExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/MarkerAnnotationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/Expression.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 29 . 'Expression' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/NormalAnnotationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/MemberValuePair.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ArrayAccessExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/IntegerLiteralMinValueExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/BooleanLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/AnnotationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/LongLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ThisExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/CharLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ArrayCreationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/MethodReferenceExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/ConditionalExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/MethodCallExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/VariableDeclarationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/BinaryExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/NameExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/QualifiedNameExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/AssignExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/DoubleLiteralExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/expr/SingleMemberAnnotationExpr.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ExpressionStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/DoStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/SwitchStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/CatchClause.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/WhileStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/EmptyStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/BlockStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ForeachStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/Statement.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 29 . 'Statement' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ReturnStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/AssertStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ForStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ContinueStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ThrowStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/BreakStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/TypeDeclarationStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/IfStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/TryStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/SwitchEntryStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/LabeledStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/SynchronizedStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/stmt/ExplicitConstructorInvocationStmt.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/internal/Utils.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/IntersectionType.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/Type.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 34 . 'Type' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/ReferenceType.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/VoidType.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/WildcardType.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 30 . 'WildcardType' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/ClassOrInterfaceType.java
+Error
+38  36
+Error
+40  36
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/UnknownType.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/UnionType.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/type/PrimitiveType.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 32 . 'PrimitiveType' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/ModifierSet.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/VariableDeclaratorId.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/AnnotationMemberDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/InitializerDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/ConstructorDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/FieldDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/EmptyTypeDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/BaseParameter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/ClassOrInterfaceDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/EnumDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/Parameter.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 35 . 'Parameter' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/WithDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/MethodDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/BodyDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/TypeDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/AnnotationDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/EmptyMemberDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/VariableDeclarator.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/MultiTypeParameter.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/AnnotableNode.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/body/EnumConstantDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/JavadocComment.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/BlockComment.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/CommentsParser.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/Comment.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 34 . 'Comment' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/CommentsCollection.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/comments/LineComment.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/TypeArguments.java
+Error
+34  32
+Error
+35  32
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/ImportDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/Node.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 40 . 'Node' is a built-in Java Class name. Please use different one 
+Error
+52  50
+Error
+53  50
+Error
+55  50
+Error
+60  50
+Error
+347  50
+Error
+348  50
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/DocumentableNode.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/TypedNode.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/PackageDeclaration.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/src/main/java/com/github/javaparser/ast/AccessSpecifier.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/Token.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/JavaCharStream.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/ASTParser.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 50 . 'Modifier' is a built-in Java Class name. Please use different one 
+Error
+9159  9110
+Error
+9160  9110
+Error
+9161  9110
+Error
+9162  9110
+Error
+9163  9110
+Error
+9319  9110
+Error
+9320  9110
+Error
+9321  9110
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/ASTParserConstants.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/ASTParserTokenManager.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/ParseException.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-core/target/generated-sources/javacc/com/github/javaparser/TokenMgrError.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/resources/com/github/javaparser/bdd/samples/JavaConcepts.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/resources/com/github/javaparser/bdd/samples/ClassInLatin1.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/DumpingTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/BasicJBehaveTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/ParsingTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/ComparingTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/visitors/PositionTestVisitor.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/VisitorTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/ManipulationTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/TestUtils.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/DumpingSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/ComparingSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/ExistenceOfParentNodeVerifier.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/VisitorSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/SharedSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/CommentParsingSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/ManipulationSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/steps/ParsingSteps.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/src/test/java/com/github/javaparser/bdd/CommentParsingTest.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/target/test-classes/com/github/javaparser/bdd/samples/JavaConcepts.java
+     file:/home/rahul/workspace1/javaparser-master/javaparser-testing/target/test-classes/com/github/javaparser/bdd/samples/ClassInLatin1.java
+
+
+Total 94 directories searched and 149 files scanned 
+*****************************************************Automation Finished***********************************************
+2016/05/04 00:01:54
+*************************************************************************************************************
