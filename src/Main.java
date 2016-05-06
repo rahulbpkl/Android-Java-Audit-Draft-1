@@ -43,6 +43,7 @@ import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
 import org.eclipse.jdt.core.dom.WhileStatement;
 
 public class Main {
+	// These fields used to get different counts for making final report
 public static int FileCount=0;
 public static int DirCount=0;
 public static int dcl00j=0;
@@ -199,7 +200,7 @@ class MyVisitor extends ASTVisitor{
 
 	        if (md.getName().toString().equals(Classname)) {
 	            md.accept(new ASTVisitor() {
-	                public boolean visit(Assignment fd) {
+	                public boolean visit(Assignment fd) { // Moving inside to get assignment operator
 	               String s=fd.getRightHandSide().toString();
 	                	
 	                    //System.out.println("in method: " + fd.getRightHandSide());
@@ -212,8 +213,7 @@ class MyVisitor extends ASTVisitor{
 	    					{
 	    						System.out.println("DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line " +Clno+", invoked at line  " +cu.getLineNumber(fd.getStartPosition())+ " and variable ' "+VarList.get(i)+" ' initialization at line "+LineList.get(i)+". Please do 'static' constructor initialization after all 'static' variable initialization");								    
 	    						LogFile.println("DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line " +Clno+", invoked at line  " +cu.getLineNumber(fd.getStartPosition())+ " and variable ' "+VarList.get(i)+" ' initialization at line "+LineList.get(i)+". Please do 'static' constructor initialization after all 'static' variable initialization");								    
-	    						//System.out.println(Lastlno+"  "+Clno);
-	    						// LogFile.println(Lastlno+"  "+Clno);
+	    						 
 	    						Main.dcl00j++;
 	    					}
 	    				} 
@@ -236,12 +236,14 @@ class MyVisitor extends ASTVisitor{
 			Clno=cu.getLineNumber(node.getStartPosition());
 			//System.out.println(Classname+Clno);
 			}
-		 else if (node.modifiers().toString().contains("static")) {
+		 else if (node.modifiers().toString().contains("static"))//check variable initialization with "Static" keyword
+				
+		 {
 			// System.out.println(Classname+Clno);
 	            node.accept(new ASTVisitor() {	
-		 public boolean visit(VariableDeclarationFragment fd) {
-         	 LineList.add(cu.getLineNumber(fd.getStartPosition()));
-         	 VarList.add(fd.getName().toString());
+		 public boolean visit(VariableDeclarationFragment fd) { // Moving inside to get variable
+         	 LineList.add(cu.getLineNumber(fd.getStartPosition()));// Get variable initialization position
+         	 VarList.add(fd.getName().toString());// Get variable name
           //   System.out.println("in frag: " + fd.getName());
              return true;
          }
@@ -270,8 +272,7 @@ class MyVisitor extends ASTVisitor{
 				System.out.println("MSC01-J. Do not use an empty infinite loop. Error at line "+cu.getLineNumber(stmt.getStartPosition()));
 				LogFile.println("MSC01-J. Do not use an empty infinite loop. Error at line "+cu.getLineNumber(stmt.getStartPosition()));
 				Main.msc01j++;
-				/*Here some code needed to check this FieldDeclaration node (Constructor invoked) is the right most
-				FieldDeclaration node if yes no code violation */
+			 
 			 }
 			 
 			return true; // do not continue to avoid usage info
